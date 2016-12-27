@@ -5,7 +5,7 @@ from flask_googlemaps.icons import dots
 from json import dumps
 
 DEFAULT_ICON = dots.red
-DEFAULT_CLUSTER_IMAGE_PATH = "static/images/m"
+DEFAULT_CLUSTER_IMAGE_PATH = "/static/images/m"
 
 
 class Map(object):
